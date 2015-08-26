@@ -9,4 +9,5 @@ Just begin from config/config.php
 Pages built by html5-framework:
 
 https://fixie-bike.appspot.com/
-goo.gl/Nnwemo
+
+http://goo.gl/Nnwemo
