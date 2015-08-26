@@ -1,0 +1,38 @@
+	<style type="text/css">
+#wrapper {
+	text-align: center;
+}
+#wrapperlogo {
+	text-align: left;
+	padding-left: 300px;
+}
+#wrapper > div {
+	display: inline-block;
+	margin: 0 20px;
+	padding: 10px;
+	background-color: #eee;
+	border-radius: 10px;
+	font-weight: 600;
+}
+#container {
+  width: 300px;
+  height: 300px;
+  /*https://www.webkit.org/blog/176/css-canvas-drawing/*/
+  background: -webkit-canvas(animation) no-repeat 50% 50%;
+  background-size: 100%;
+  display: inline-block;
+  -webkit-transition: background 0.4s;
+}
+#notsupport {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: rgba(255,0,0,0.1);
+  border-radius: 5px;
+  display: none;
+  position: relative;
+  z-index: 1000;
+}
+</style>
